@@ -76,7 +76,7 @@ function App() {
               muted
               playsInline
             >
-              <source src="/videos/cybersecurity.mp4" type="video/mp4" />
+              <source src="/videos/video.mp4ideo/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
