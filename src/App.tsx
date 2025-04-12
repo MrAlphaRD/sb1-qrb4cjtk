@@ -69,13 +69,16 @@ function App() {
             Campaign Preview
           </h2>
           <div className="relative bg-slate-800 rounded-xl overflow-hidden aspect-video">
-  <iframe
-    className="absolute inset-0 w-full h-full"
-    src="https://www.youtube.com/embed/Z4F3AXvrLKo"
-    title="Cybersecurity Awareness Campaign Video"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
+          <video
+    className="absolute inset-0 w-full h-full object-cover"
+    controls
+    autoPlay
+    muted
+    playsInline
+  >
+    <source src="/videos/cybersecurity.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
           </div>
         </div>
