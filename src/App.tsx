@@ -75,6 +75,7 @@ function App() {
               autoPlay
               muted
               playsInline
+              loop
             >
               <source src="/videos/cybersecurity.mp4" type="video/mp4" />
               Your browser does not support the video tag.
